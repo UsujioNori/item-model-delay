@@ -403,5 +403,4 @@ resource packs.
 
 ## License
 
-Add the project's intended release license here before publishing if it
-differs from the original template license.
+CC0-1.0
