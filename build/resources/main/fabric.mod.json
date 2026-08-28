@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "usus_item_model_delay",
+	"version": "1.0.1",
+	"name": "Usu's Item Model Delay",
+	"description": "Lets resource packs delay Minecraft item-model property transitions across conditional, range-dispatch, and select properties.",
+	"authors": [
+		"UsujioTarako"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/usus_item_model_delay/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.usujiotarako.client.ModelDelayHelperClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "usus_item_model_delay.client.mixins.json",
+			"environment": "client"
+		},
+		{
+			"config": "usus_item_model_delay.punchy.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"punchy": "*"
+	}
+}

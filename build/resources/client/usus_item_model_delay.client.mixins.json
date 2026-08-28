@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "com.usujiotarako.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"ConditionalItemModelMixin",
+		"RangeSelectItemModelMixin",
+		"SelectItemModelMixin",
+		"ItemModelResolverMixin",
+		"ItemStackRenderStateMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

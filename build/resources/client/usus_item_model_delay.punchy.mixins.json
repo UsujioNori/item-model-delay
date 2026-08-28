@@ -1,0 +1,12 @@
+{
+  "required": false,
+  "package": "com.usujiotarako.client.mixin.compat",
+  "compatibilityLevel": "JAVA_25",
+  "plugin": "com.usujiotarako.client.mixin.compat.PunchyCompatMixinPlugin",
+  "client": [
+    "PunchyArmRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}
