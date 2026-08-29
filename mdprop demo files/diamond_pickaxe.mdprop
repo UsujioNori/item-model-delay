@@ -1,0 +1,58 @@
+# ============================================================
+# KEYBIND
+# ============================================================
+
+keybind_down.delay=14
+keybind_down.mode=release
+
+
+# ============================================================
+# PARTICLES
+# ============================================================
+
+keybind_down.effect=poof
+keybind_down.effect.trigger=delayed
+
+
+# ============================================================
+# PARTICLE TEXTURE, FRAMES AND DURATION
+# ============================================================
+
+keybind_down.effect.texture=particle/cherry
+keybind_down.effect.frames=8
+keybind_down.effect.duration=16
+
+
+# ============================================================
+# PARTICLE AMOUNT
+# ============================================================
+
+keybind_down.effect.count=20
+
+
+# ============================================================
+# PARTICLE RADIUS, SPREAD, SIZE AND STAGGER
+# ============================================================
+
+keybind_down.effect.radius_min=-0.05,0.0,-0.50
+keybind_down.effect.radius_max=0.05,0.10,0.50
+
+keybind_down.effect.spread=0.3
+keybind_down.effect.size=0.30
+keybind_down.effect.stagger=0.5
+
+# ============================================================
+# SOUND AND PITCH
+# ============================================================
+
+keybind_down.sound=block/amethyst/break1,block/amethyst/break2,block/amethyst/break3,block/amethyst/break4
+keybind_down.sound.trigger=delayed
+keybind_down.sound.volume=0.8
+keybind_down.sound.pitch_min=0.9
+keybind_down.sound.pitch_max=1.1
+
+# ============================================================
+# PARTICLE ORIGIN
+# ============================================================
+
+keybind_down.effect.origin=0.0,0.4,0.0
